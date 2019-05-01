@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select `testtt`.`goods`.`goods_name` AS `goods_name` from `testtt`.`goods`
+md5=24fd7f0d812fc56a1f3e393320cac54f
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2018-08-04 06:46:11
+create-version=1
+source=select goods_name from goods
+client_cs_name=gbk
+connection_cl_name=gbk_chinese_ci
+view_body_utf8=select `testtt`.`goods`.`goods_name` AS `goods_name` from `testtt`.`goods`

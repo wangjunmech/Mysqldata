@@ -1,0 +1,15 @@
+TYPE=VIEW
+query=select `testtt`.`goods`.`goods_id` AS `goods_id`,`testtt`.`goods`.`goods_sn` AS `goods_sn`,`testtt`.`goods`.`goods_number` AS `goods_number`,(`testtt`.`goods`.`market_price` - `testtt`.`goods`.`shop_price`) AS `market_price-shop_price` from `testtt`.`goods`
+md5=e95c823d0fbdee605dc6e9f2c4c07057
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2018-08-04 06:57:15
+create-version=1
+source=select goods_id,goods_sn,goods_number,market_price-shop_price from goods
+client_cs_name=gbk
+connection_cl_name=gbk_chinese_ci
+view_body_utf8=select `testtt`.`goods`.`goods_id` AS `goods_id`,`testtt`.`goods`.`goods_sn` AS `goods_sn`,`testtt`.`goods`.`goods_number` AS `goods_number`,(`testtt`.`goods`.`market_price` - `testtt`.`goods`.`shop_price`) AS `market_price-shop_price` from `testtt`.`goods`
